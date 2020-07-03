@@ -1,0 +1,33 @@
+.mask-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  text-align: center;
+}
+
+.mask-count-time {
+  position: absolute;
+  left: 50rpx;
+  top: 50rpx;
+}
+
+.mask-icon {
+  margin-top: 250rpx;
+}
+
+.mask-tips {
+  margin-top: 120rpx;
+}
+
+.mask-cancle {
+  display: inline-block;
+  margin-top: 470rpx;
+  padding: 10rpx 40rpx;
+  border: 1px solid #07c160;
+  color: #07c160;
+  border-radius: 7rpx;
+  font-size: 26rpx;
+}

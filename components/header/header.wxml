@@ -1,0 +1,5 @@
+<!--components/header/header.wxml-->
+<view class="header-title">
+  <text wx:if="{{isBackHide}}" class="header-back" catchtap="goToBack"></text>
+  {{title}}
+</view>

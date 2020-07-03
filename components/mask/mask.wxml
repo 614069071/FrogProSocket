@@ -1,0 +1,7 @@
+<!-- 遮罩 -->
+<view class="mask-wrap" hidden="{{isMaskHide}}">
+  <countdown wx:if="{{isOpenCountdown}}" class="mask-count-time" countTime="{{countTime}}" clear="{{isMaskHide}}" />
+  <icon class="mask-icon" type="waiting" color="#05B357" size="60"></icon>
+  <view class="mask-tips">{{maskTips}}</view>
+  <view class="mask-cancle" catchtap="goToCancel">取消</view>
+</view>

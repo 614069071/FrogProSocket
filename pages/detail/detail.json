@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "site-icon": "/components/siteicon/siteicon",
+    "header": "/components/header/header",
+    "mask": "/components/mask/mask"
+  },
+  "navigationStyle": "custom"
+}
